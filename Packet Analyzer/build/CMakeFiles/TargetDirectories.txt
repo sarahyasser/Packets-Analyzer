@@ -1,3 +1,0 @@
-D:/My PC/Projects/Siemens-DISW-Diploma/Packets-Analyzer/Packet Analyzer/build/CMakeFiles/PacketsHandler.dir
-D:/My PC/Projects/Siemens-DISW-Diploma/Packets-Analyzer/Packet Analyzer/build/CMakeFiles/edit_cache.dir
-D:/My PC/Projects/Siemens-DISW-Diploma/Packets-Analyzer/Packet Analyzer/build/CMakeFiles/rebuild_cache.dir
