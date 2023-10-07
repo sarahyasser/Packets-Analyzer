@@ -10,31 +10,28 @@ Packet* PacketParser::parsePacket(const string& data) {
 
     //assign common members
     string packetString = data;
-    string Packet_Cyclic_Redundancy_Check = packetString.substr(packetString.length() - 8,8);
-    string Packet_Destination_Address = packetString.substr(28,12);
-    string Packet_Source_Address = packetString.substr(16,12);
-    string Packet_Type = packetString.substr(40,4);
-
-
+    string packetCyclicRedundancyCheck = packetString.substr(packetString.length() - 8, 8);
+    string packetDestinationAddress = packetString.substr(16, 12);
+    string packetSourceAddress = packetString.substr(28, 12);
+    string packetType = packetString.substr(40, 4);
 
     if (typeCheck == "AEFE") {
         // It's an ecpri packet
-        string e_CPRI_Concatenation_Indicator = packetString.substr(45,1);
-        string e_CPRI_Payload_Size = packetString.substr(48,4);
-        string e_CPRI_Protocol_Version = packetString.substr(44,1);
-        string e_CPRI_RTC_ID = (packetString.substr(52,4));
-        string e_CPRI_Sequence_ID = (packetString.substr(56,4));
+        string ecpriConcatenationIndicator = packetString.substr(45, 1);
+        string ecpriPayloadSize = packetString.substr(48, 4);
+        string ecpriProtocolVersion = packetString.substr(44, 1);
+        string ecpriRtcID = (packetString.substr(52, 4));
+        string ecpriSequenceID = (packetString.substr(56, 4));
+        string ecpriMessageType = packetString.substr(46,2);
 
 
 
         // Create and return an EcpriPacket
-        return new EcpriPacket(packetString,Packet_Cyclic_Redundancy_Check,Packet_Destination_Address,Packet_Source_Address,Packet_Type,e_CPRI_Concatenation_Indicator,e_CPRI_Payload_Size,e_CPRI_Protocol_Version,e_CPRI_RTC_ID,e_CPRI_Sequence_ID);
+        return new EcpriPacket(packetString, packetCyclicRedundancyCheck, packetDestinationAddress, packetSourceAddress, packetType, ecpriConcatenationIndicator, ecpriPayloadSize, ecpriProtocolVersion, ecpriRtcID, ecpriSequenceID, ecpriMessageType);
     } else {
         // Create and return an EthernetPacket
-        return new EthernetPacket(packetString,Packet_Cyclic_Redundancy_Check,Packet_Destination_Address,Packet_Source_Address,Packet_Type);
+        return new EthernetPacket(packetString, packetCyclicRedundancyCheck, packetDestinationAddress, packetSourceAddress, packetType);
     }
-
-
 }
 
 string PacketParser::checkType(const string &data) {

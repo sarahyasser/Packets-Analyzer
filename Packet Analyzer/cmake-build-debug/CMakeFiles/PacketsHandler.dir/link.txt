@@ -1,3 +1,3 @@
-"C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PacketsHandler.dir/objects.a
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc CMakeFiles\PacketsHandler.dir/objects.a @CMakeFiles\PacketsHandler.dir\objects1.rsp
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\PacketsHandler.dir/objects.a -Wl,--no-whole-archive -o PacketsHandler.exe -Wl,--out-implib,libPacketsHandler.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PacketsHandler.dir\linklibs.rsp
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PacketsHandler.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\PacketsHandler.dir/objects.a @CMakeFiles\PacketsHandler.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PacketsHandler.dir/objects.a -Wl,--no-whole-archive -o PacketsHandler.exe -Wl,--out-implib,libPacketsHandler.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PacketsHandler.dir\linklibs.rsp

@@ -33,7 +33,7 @@ void WriteToOutputVisitor::visit(EcpriPacket *packet) {
                 + "\nCRC: " + packet->getCyclicRedundancyCheck()
                 + "\nConcatenation Indicator: " + packet->getConcatenationIndicator()
                 + "\nDestination Address: " + packet->getDestinationAddress()
-//                + "\nMessage Type: " + packet->getMessageType()
+                + "\nMessage Type: " + packet->getMessageType()
                 + "\nPayload Size: " + packet->getPayloadSize()
                 + "\nProtocol Version: " + packet->getProtocolVersion()
                 + "\nRTC ID: " + packet->getRtcID()
