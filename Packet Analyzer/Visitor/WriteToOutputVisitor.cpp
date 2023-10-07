@@ -18,6 +18,6 @@ void WriteToOutputVisitor::visit(EthernetPacket* packet) {
 
 void WriteToOutputVisitor::visit(EcpriPacket* packet) {
     if (packet) {
-        outputFile << "Ecpri Packet Type: " << packet->getType() << "\n"; //for testing
+        outputFile << "Ecpri Packet Type: " << packet->getRtcID() << "\n"; //for testing
     }
 }

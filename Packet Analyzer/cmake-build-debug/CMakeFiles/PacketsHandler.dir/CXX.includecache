@@ -6,115 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EcpriPacket.cpp
-EcpriPacket.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EcpriPacket.h
-../Visitor/Visitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EcpriPacket.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Packet/EcpriPacket.h
 Packet.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Packet/Packet.h
 string
 -
 
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EthernetPacket.cpp
-EthernetPacket.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EthernetPacket.h
-../Visitor/Visitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EthernetPacket.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Packet/EthernetPacket.h
 Packet.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Packet/Packet.h
 
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.cpp
-Packet.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.h
-../Visitor/Visitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Packet/Packet.h
 string
 -
 
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/FileReader.cpp
-FileReader.h
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/FileReader.h
-iostream
--
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Visitor/Visitor.h
 
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/FileReader.h
-string
--
-fstream
--
-vector
--
-
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketParser.cpp
-PacketParser.h
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketParser.h
-../Packet/EthernetPacket.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EthernetPacket.h
-../Packet/EcpriPacket.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EcpriPacket.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketParser.h
-string
--
-vector
--
-../Packet/Packet.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketReader.cpp
-PacketReader.h
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketReader.h
-iostream
--
-
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketReader.h
-vector
--
-string
--
-FileReader.h
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/FileReader.h
-PacketParser.h
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketParser.h
-../Packet/Packet.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.cpp
-Visitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.h
-
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/WriteToOutputVisitor.cpp
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Visitor/WriteToOutputVisitor.cpp
 WriteToOutputVisitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/WriteToOutputVisitor.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Visitor/WriteToOutputVisitor.h
 ../Packet/EthernetPacket.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EthernetPacket.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Packet/EthernetPacket.h
 ../Packet/EcpriPacket.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/EcpriPacket.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Packet/EcpriPacket.h
 
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/WriteToOutputVisitor.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Visitor/WriteToOutputVisitor.h
 Visitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.h
+C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/Visitor/Visitor.h
 fstream
 -
-
-C:/Users/as/CLionProjects/Packet Analyzer/main.cpp
-iostream
--
-PacketReader/PacketReader.h
-C:/Users/as/CLionProjects/Packet Analyzer/PacketReader/PacketReader.h
-Visitor/Visitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/Visitor.h
-Visitor/WriteToOutputVisitor.h
-C:/Users/as/CLionProjects/Packet Analyzer/Visitor/WriteToOutputVisitor.h
-Packet/Packet.h
-C:/Users/as/CLionProjects/Packet Analyzer/Packet/Packet.h
 

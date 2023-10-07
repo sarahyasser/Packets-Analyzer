@@ -4,7 +4,7 @@
 using namespace std;
 
 EcpriPacket::EcpriPacket(string& packetString, string& crc, string& destinationAddress, string& sourceAddress,
-                         string& type, int concatenationIndicator, int payloadSize, int protocolVersion,
+                         string& type, string& concatenationIndicator, string& payloadSize, string& protocolVersion,
                          string& rtcID, string& sequenceID)
         : Packet(packetString,crc, destinationAddress, sourceAddress, type),
           concatenationIndicator(concatenationIndicator),
@@ -19,27 +19,27 @@ void EcpriPacket::accept(Visitor& visitor) {
 }
 
 // Setter and getter implementations
-int EcpriPacket::getConcatenationIndicator() const {
+const string& EcpriPacket::getConcatenationIndicator() const {
     return concatenationIndicator;
 }
 
-void EcpriPacket::setConcatenationIndicator(int concatenationIndicator) {
+void EcpriPacket::setConcatenationIndicator(const string& concatenationIndicator) {
     this->concatenationIndicator = concatenationIndicator;
 }
 
-int EcpriPacket::getPayloadSize() const {
+const string& EcpriPacket::getPayloadSize() const {
     return payloadSize;
 }
 
-void EcpriPacket::setPayloadSize(int payloadSize) {
+void EcpriPacket::setPayloadSize(const string& payloadSize) {
     this->payloadSize = payloadSize;
 }
 
-int EcpriPacket::getProtocolVersion() const {
+const string& EcpriPacket::getProtocolVersion() const {
     return protocolVersion;
 }
 
-void EcpriPacket::setProtocolVersion(int protocolVersion) {
+void EcpriPacket::setProtocolVersion(const string& protocolVersion) {
     this->protocolVersion = protocolVersion;
 }
 

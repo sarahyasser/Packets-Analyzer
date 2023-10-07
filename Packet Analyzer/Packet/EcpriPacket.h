@@ -8,9 +8,9 @@ using namespace std;
 
 class EcpriPacket : public Packet {
 private:
-    int concatenationIndicator;
-    int payloadSize;
-    int protocolVersion;
+    string concatenationIndicator;
+    string payloadSize;
+    string protocolVersion;
     string rtcID;
     string sequenceID;
 
@@ -18,18 +18,18 @@ public:
     using Packet::Packet;
 
     EcpriPacket(string& packetString, string& crc, string& destinationAddress, string& sourceAddress,
-                string& type, int concatenationIndicator, int payloadSize, int protocolVersion,
+                string& type, string& concatenationIndicator, string& payloadSize, string& protocolVersion,
                 string& rtcID, string& sequenceID);
 
     // Setters and getters
-    int getConcatenationIndicator() const;
-    void setConcatenationIndicator(int concatenationIndicator);
+    const string& getConcatenationIndicator() const;
+    void setConcatenationIndicator(const string& concatenationIndicator);
 
-    int getPayloadSize() const;
-    void setPayloadSize(int payloadSize);
+    const string& getPayloadSize() const;
+    void setPayloadSize(const string& payloadSize);
 
-    int getProtocolVersion() const;
-    void setProtocolVersion(int protocolVersion);
+    const string& getProtocolVersion() const;
+    void setProtocolVersion(const string& protocolVersion);
 
     const string& getRtcID() const;
     void setRtcID(const string& rtcID);
