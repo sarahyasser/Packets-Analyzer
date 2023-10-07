@@ -21,7 +21,7 @@ There are 2 types of Ethernet Packets:
 
 ### UML Diagram
 
-[UML Diagram here]
+![UML](./UML/ClassDiagram.png)
 
 
 ### How to run the program
