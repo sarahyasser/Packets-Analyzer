@@ -54,5 +54,5 @@ Follow these steps to build and run the project:
     ```
 4. Run the executable:
     ```bash
-    .\PacketsHandler.exe
+    .\PacketsHandler.exe "../input_packets.txt" "../output_packets.txt"
     ```
