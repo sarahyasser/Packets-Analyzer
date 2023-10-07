@@ -3,7 +3,9 @@
 #include "../Packet/EcpriPacket.h"
 
 WriteToOutputVisitor::WriteToOutputVisitor(const string &fileName) {
-    outputFile.open(fileName, ios::app | ios::out);
+
+    // Open the file in output mode and truncate it (clear its contents)
+    outputFile.open(fileName, ios::out | ios::trunc);
     outputPacketCount = 0;
     packetSeparatorLine = string(SEPARATOR_LENGTH, '*');
 }
@@ -53,12 +55,11 @@ void WriteToOutputVisitor::writeToFile(const string& analyzedPacket) {
         return;
     }
 
+    // final output string format
     string outputString = "Packet # " + to_string(outputPacketCount++) + ":"
             + "\n" + analyzedPacket
             + "\n" + packetSeparatorLine
             + "\n\n";
 
     outputFile << outputString;
-
-    cout << "Data has been appended to file" << endl;
 }

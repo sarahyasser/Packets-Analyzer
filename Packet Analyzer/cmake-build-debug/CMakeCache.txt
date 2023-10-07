@@ -118,7 +118,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/PacketsHandler
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/PacketsAnalyzer
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/JetBrains/CLion 2022.1.1/bin/mingw/bin/ld.exe
@@ -162,7 +162,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=PacketsHandler
+CMAKE_PROJECT_NAME:STATIC=PacketsAnalyzer
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2022.1.1/bin/mingw/bin/ranlib.exe
@@ -245,13 +245,13 @@ CMAKE_STRIP:FILEPATH=C:/Program Files/JetBrains/CLion 2022.1.1/bin/mingw/bin/str
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-PacketsHandler_BINARY_DIR:STATIC=D:/My PC/Projects/Siemens-DISW-Diploma/Packets-Analyzer/Packet Analyzer/cmake-build-debug
+PacketsAnalyzer_BINARY_DIR:STATIC=D:/My PC/Projects/Siemens-DISW-Diploma/Packets-Analyzer/Packet Analyzer/cmake-build-debug
 
 //Value Computed by CMake
-PacketsHandler_IS_TOP_LEVEL:STATIC=ON
+PacketsAnalyzer_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-PacketsHandler_SOURCE_DIR:STATIC=D:/My PC/Projects/Siemens-DISW-Diploma/Packets-Analyzer/Packet Analyzer
+PacketsAnalyzer_SOURCE_DIR:STATIC=D:/My PC/Projects/Siemens-DISW-Diploma/Packets-Analyzer/Packet Analyzer
 
 
 ########################
