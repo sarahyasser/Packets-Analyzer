@@ -61,10 +61,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\as\CLionProjects\Packet Analyzer"
+CMAKE_SOURCE_DIR = "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PacketsHandler.dir/depend.make
@@ -77,120 +77,120 @@ include CMakeFiles/PacketsHandler.dir/flags.make
 
 CMakeFiles/PacketsHandler.dir/main.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PacketsHandler.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\main.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PacketsHandler.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\main.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\main.cpp"
 
 CMakeFiles/PacketsHandler.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\main.cpp" > CMakeFiles\PacketsHandler.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\main.cpp" > CMakeFiles\PacketsHandler.dir\main.cpp.i
 
 CMakeFiles/PacketsHandler.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\main.cpp" -o CMakeFiles\PacketsHandler.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\main.cpp" -o CMakeFiles\PacketsHandler.dir\main.cpp.s
 
 CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.obj: ../Packet/Packet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Packet\Packet.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\Packet\Packet.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Packet\Packet.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\Packet.cpp"
 
 CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\Packet\Packet.cpp" > CMakeFiles\PacketsHandler.dir\Packet\Packet.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\Packet.cpp" > CMakeFiles\PacketsHandler.dir\Packet\Packet.cpp.i
 
 CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/Packet/Packet.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\Packet\Packet.cpp" -o CMakeFiles\PacketsHandler.dir\Packet\Packet.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\Packet.cpp" -o CMakeFiles\PacketsHandler.dir\Packet\Packet.cpp.s
 
 CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.obj: ../Visitor/Visitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Visitor\Visitor.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\Visitor\Visitor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Visitor\Visitor.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Visitor\Visitor.cpp"
 
 CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\Visitor\Visitor.cpp" > CMakeFiles\PacketsHandler.dir\Visitor\Visitor.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Visitor\Visitor.cpp" > CMakeFiles\PacketsHandler.dir\Visitor\Visitor.cpp.i
 
 CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/Visitor/Visitor.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\Visitor\Visitor.cpp" -o CMakeFiles\PacketsHandler.dir\Visitor\Visitor.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Visitor\Visitor.cpp" -o CMakeFiles\PacketsHandler.dir\Visitor\Visitor.cpp.s
 
 CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.obj: ../Visitor/WriteToOutputVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Visitor\WriteToOutputVisitor.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\Visitor\WriteToOutputVisitor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Visitor\WriteToOutputVisitor.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Visitor\WriteToOutputVisitor.cpp"
 
 CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\Visitor\WriteToOutputVisitor.cpp" > CMakeFiles\PacketsHandler.dir\Visitor\WriteToOutputVisitor.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Visitor\WriteToOutputVisitor.cpp" > CMakeFiles\PacketsHandler.dir\Visitor\WriteToOutputVisitor.cpp.i
 
 CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/Visitor/WriteToOutputVisitor.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\Visitor\WriteToOutputVisitor.cpp" -o CMakeFiles\PacketsHandler.dir\Visitor\WriteToOutputVisitor.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Visitor\WriteToOutputVisitor.cpp" -o CMakeFiles\PacketsHandler.dir\Visitor\WriteToOutputVisitor.cpp.s
 
 CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.obj: ../Packet/EthernetPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Packet\EthernetPacket.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\Packet\EthernetPacket.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Packet\EthernetPacket.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\EthernetPacket.cpp"
 
 CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\Packet\EthernetPacket.cpp" > CMakeFiles\PacketsHandler.dir\Packet\EthernetPacket.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\EthernetPacket.cpp" > CMakeFiles\PacketsHandler.dir\Packet\EthernetPacket.cpp.i
 
 CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/Packet/EthernetPacket.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\Packet\EthernetPacket.cpp" -o CMakeFiles\PacketsHandler.dir\Packet\EthernetPacket.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\EthernetPacket.cpp" -o CMakeFiles\PacketsHandler.dir\Packet\EthernetPacket.cpp.s
 
 CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.obj: ../Packet/EcpriPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Packet\EcpriPacket.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\Packet\EcpriPacket.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\Packet\EcpriPacket.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\EcpriPacket.cpp"
 
 CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\Packet\EcpriPacket.cpp" > CMakeFiles\PacketsHandler.dir\Packet\EcpriPacket.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\EcpriPacket.cpp" > CMakeFiles\PacketsHandler.dir\Packet\EcpriPacket.cpp.i
 
 CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/Packet/EcpriPacket.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\Packet\EcpriPacket.cpp" -o CMakeFiles\PacketsHandler.dir\Packet\EcpriPacket.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\Packet\EcpriPacket.cpp" -o CMakeFiles\PacketsHandler.dir\Packet\EcpriPacket.cpp.s
 
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.obj: ../PacketReader/PacketReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketReader.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\PacketReader.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketReader.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\PacketReader.cpp"
 
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\PacketReader.cpp" > CMakeFiles\PacketsHandler.dir\PacketReader\PacketReader.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\PacketReader.cpp" > CMakeFiles\PacketsHandler.dir\PacketReader\PacketReader.cpp.i
 
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/PacketReader/PacketReader.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\PacketReader.cpp" -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketReader.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\PacketReader.cpp" -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketReader.cpp.s
 
 CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.obj: ../PacketReader/FileReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\PacketReader\FileReader.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\FileReader.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\PacketReader\FileReader.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\FileReader.cpp"
 
 CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\FileReader.cpp" > CMakeFiles\PacketsHandler.dir\PacketReader\FileReader.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\FileReader.cpp" > CMakeFiles\PacketsHandler.dir\PacketReader\FileReader.cpp.i
 
 CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/PacketReader/FileReader.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\FileReader.cpp" -o CMakeFiles\PacketsHandler.dir\PacketReader\FileReader.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\FileReader.cpp" -o CMakeFiles\PacketsHandler.dir\PacketReader\FileReader.cpp.s
 
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.obj: CMakeFiles/PacketsHandler.dir/flags.make
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.obj: ../PacketReader/PacketParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketParser.cpp.obj -c "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\PacketParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketParser.cpp.obj -c "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\PacketParser.cpp"
 
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\PacketParser.cpp" > CMakeFiles\PacketsHandler.dir\PacketReader\PacketParser.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\PacketParser.cpp" > CMakeFiles\PacketsHandler.dir\PacketReader\PacketParser.cpp.i
 
 CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PacketsHandler.dir/PacketReader/PacketParser.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\CLionProjects\Packet Analyzer\PacketReader\PacketParser.cpp" -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketParser.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\PacketReader\PacketParser.cpp" -o CMakeFiles\PacketsHandler.dir\PacketReader\PacketParser.cpp.s
 
 # Object files for target PacketsHandler
 PacketsHandler_OBJECTS = \
@@ -220,7 +220,7 @@ PacketsHandler.exe: CMakeFiles/PacketsHandler.dir/build.make
 PacketsHandler.exe: CMakeFiles/PacketsHandler.dir/linklibs.rsp
 PacketsHandler.exe: CMakeFiles/PacketsHandler.dir/objects1.rsp
 PacketsHandler.exe: CMakeFiles/PacketsHandler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable PacketsHandler.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable PacketsHandler.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PacketsHandler.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +233,6 @@ CMakeFiles/PacketsHandler.dir/clean:
 .PHONY : CMakeFiles/PacketsHandler.dir/clean
 
 CMakeFiles/PacketsHandler.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\as\CLionProjects\Packet Analyzer" "C:\Users\as\CLionProjects\Packet Analyzer" "C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug" "C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug" "C:\Users\as\CLionProjects\Packet Analyzer\cmake-build-debug\CMakeFiles\PacketsHandler.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer" "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer" "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug" "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug" "C:\Users\as\Documents\GitHub\Packets-Analyzer\Packet Analyzer\cmake-build-debug\CMakeFiles\PacketsHandler.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PacketsHandler.dir/depend
 
