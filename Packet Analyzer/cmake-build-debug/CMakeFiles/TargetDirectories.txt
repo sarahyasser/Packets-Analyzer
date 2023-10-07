@@ -1,3 +1,0 @@
-C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/cmake-build-debug/CMakeFiles/PacketsHandler.dir
-C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/as/Documents/GitHub/Packets-Analyzer/Packet Analyzer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
