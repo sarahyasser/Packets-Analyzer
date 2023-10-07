@@ -13,17 +13,20 @@ private:
     string protocolVersion;
     string rtcID;
     string sequenceID;
+    string messageType;
 
 public:
     using Packet::Packet;
 
     EcpriPacket(string& packetString, string& crc, string& destinationAddress, string& sourceAddress,
                 string& type, string& concatenationIndicator, string& payloadSize, string& protocolVersion,
-                string& rtcID, string& sequenceID);
+                string& rtcID, string& sequenceID, string& messageType);
 
     // Setters and getters
     const string& getConcatenationIndicator() const;
     void setConcatenationIndicator(const string& concatenationIndicator);
+
+    const string &getMessageType() const;
 
     const string& getPayloadSize() const;
     void setPayloadSize(const string& payloadSize);
