@@ -2,9 +2,10 @@
 #include "../Packet/EthernetPacket.h"
 #include "../Packet/EcpriPacket.h"
 
-WriteToOutputVisitor::WriteToOutputVisitor(const std::string &fileName) {
-    outputFile.open(fileName, std::ios::app | std::ios::out);
+WriteToOutputVisitor::WriteToOutputVisitor(const string &fileName) {
+    outputFile.open(fileName, ios::app | ios::out);
     outputPacketCount = 0;
+    packetSeparatorLine = string(SEPARATOR_LENGTH, '*');
 }
 
 WriteToOutputVisitor::~WriteToOutputVisitor() {
@@ -46,17 +47,18 @@ void WriteToOutputVisitor::visit(EcpriPacket *packet) {
 
 void WriteToOutputVisitor::writeToFile(const string& analyzedPacket) {
 
+
     if (!outputFile.is_open()) {
-        std::cerr << "Error: Unable to open file." << std::endl;
+        cerr << "Error: Unable to open file." << endl;
         return;
     }
 
-    string outputString = "Packet # " + to_string(outputPacketCount++)
+    string outputString = "Packet # " + to_string(outputPacketCount++) + ":"
             + "\n" + analyzedPacket
-            + "\n" + string(SEPARATOR_LENGTH, '*')
+            + "\n" + packetSeparatorLine
             + "\n\n";
 
     outputFile << outputString;
 
-    std::cout << "Data has been appended to file" << std::endl;
+    cout << "Data has been appended to file" << endl;
 }

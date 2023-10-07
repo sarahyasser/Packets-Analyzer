@@ -13,6 +13,7 @@ using namespace std;
 class WriteToOutputVisitor : public Visitor{
 private:
     ofstream outputFile;
+    string packetSeparatorLine;
     int outputPacketCount;
 
 public:
